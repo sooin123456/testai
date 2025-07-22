@@ -8,8 +8,8 @@ import { TeamCard } from "~/features/teams/components/team-card";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "Home | wemake" },
-    { name: "description", content: "Welcome to wemake" },
+    { title: "Home | LukasAI" },
+    { name: "description", content: "Welcome to LukasAI" },
   ];
 };
 

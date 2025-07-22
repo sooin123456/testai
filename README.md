@@ -1,4 +1,4 @@
-# WeMake
+# LukasAI
 
-Welcome to WeMake, the home of makers.
+Welcome to LukasAI, the home of makers.
 # testai
