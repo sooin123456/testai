@@ -137,6 +137,11 @@ const menus = [
         description: "Create a team in our community",
         to: "/teams/create",
       },
+      {
+        name: "인기 파일 랭킹",
+        description: "가장 많이 사용되는 파일들을 확인하세요",
+        to: "/teams/popular-files",
+      },
     ],
   },
 ];

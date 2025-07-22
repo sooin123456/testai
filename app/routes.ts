@@ -82,6 +82,7 @@ export default [
     index("features/teams/pages/teams-page.tsx"),
     route("/:teamId", "features/teams/pages/team-page.tsx"),
     route("/create", "features/teams/pages/submit-team-page.tsx"),
+    route("/popular-files", "features/teams/pages/popular-files-page.tsx"),
   ]),
   ...prefix("/my", [
     layout("features/users/layouts/dashboard-layout.tsx", [

@@ -12,6 +12,7 @@ import type { Route } from "./+types/root";
 import stylesheet from "./app.css?url";
 import Navigation from "./common/components/navigation";
 import { Settings } from "luxon";
+import { ChatbotDialog } from "./common/components/chatbot-dialog";
 
 export const links: Route.LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -59,6 +60,7 @@ export default function App() {
         />
       )}
       <Outlet />
+      <ChatbotDialog />
     </div>
   );
 }
